@@ -8,7 +8,7 @@ console.log("===========================")
 console.log("FRC's HOTDOGS - CADASTRO DE PREÇO")
 console.log("===========================")
 
-console.log("\n\n")
+console.log("\n")
 
 let custo1 = parseFloat(prompt(`Digite o custo de ${produto1}: R$`))
 let custo2 = parseFloat(prompt(`Digite o custo de ${produto2}: R$`))
@@ -44,7 +44,7 @@ console.log("   CARDÁPIO FRC' HOTDOGS")
 console.log("===========================")
 console.log(`Lucro aplicado: ${lucroDesejado*100}%`)
 
-console.log("\n\n")
+console.log("\n")
 
 console.log(card1.toUpperCase())
 console.log(`Ingredientes: ${produto1}, ${produto2}, ${produto3} e ${produto5}`)
@@ -60,7 +60,7 @@ console.log(`Preço de custo: R$${cachorroCusto2}`)
 console.log(`Preço de lucro: R$${cachorroLucro2}`)
 console.log("------------------------------------------------------")
 
-console.log("\n\n")
+console.log("\n")
 
 console.log(card3.toUpperCase())
 console.log(`Ingredientes: ${produto1}, ${produto2}, ${produto3}, ${produto4} e ${produto5}`)
@@ -68,11 +68,10 @@ console.log(`Preço de custo: R$${cachorroCusto1}`)
 console.log(`Preço de lucro: R$${cachorroLucro1}`)
 console.log("------------------------------------------------------")
 
-console.log("\n\n")
+console.log("\n")
 
 console.log(`COMBO`)
 console.log(`Ingredientes: ${card1}, ${card2} e ${card3}`)
 console.log(`Preço de custo: R$${comboCusto1}`)
 console.log(`Preço de lucro: R$${comboLucro1}`)
 console.log("------------------------------------------------------")
-
